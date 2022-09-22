@@ -2,13 +2,14 @@ html, body { /* Used to prevent issues with the background when changing window 
     min-height: 100%;
 }
 body { /* Styling for Body */
-    width: 500px;
+    width: 1400px;
     height: auto;
     margin: auto;
-    background: #333333;
+    background: #008080;
     background-repeat: no-repeat;
     background-size: cover;
     overflow: auto;
+	
 }
 
 .header { /* Colour for header */
@@ -17,28 +18,37 @@ body { /* Styling for Body */
 
 /* Styling for Main */
 main {
-    font-family: Verdana;
+    font-family: MS Sans-serif;
     margin: 0 auto;
+	margin-top: 20px;
     overflow: auto;
+	-webkit-box-shadow: 0 3px 15px 0 #000000;
+	-moz-box-shadow: 0 3px 15px 0 #000000;
+	box-shadow: 0 3px 15px 0 #000000;
 }
 /* Styling for main text area */
 .structure {
     max-width: 100%;
     height: auto;
-    margin: auto;
-    background-color: #1a1a1a;
+    
+    background-color: white;
+	border-radius: 5px;
+	
+	
 }
 /* Styling for navigation */
 .navigation {
-    font-family: Arial;
+    font-family: MS Sans-serif;
+	font-size: 102%;
 	color: white;
-    background-color: #1a1a1a;
-    margin: 0;
+    background-color: #c3c3c3;
+    margin: 100;
     padding: 0;
     list-style-type: none;
     text-align: center;
     overflow: hidden;
-    border: 1px solid white;
+    
+	
 }
 /*Styling for navigation */
 .navigation > li {
@@ -50,13 +60,14 @@ main {
 
 .navigation > li> a {
     text-decoration: none;
-    color: white;
+    color: black;
     padding: 10px;
 }
 
 .navigation >li> a:hover {
     background-color: #646464;
     color: white;
+	border-radius: 5px;
 }
 /* Styling for images */
 .logo { /* Moves logo to left of header */
@@ -92,7 +103,7 @@ main {
 /*Styling for Titles*/
 .title {
     width: auto;
-    background-color: #1a1a1a;
+    background-color: #010081;
     color: white;
     text-align: center;
     height: auto;
@@ -117,8 +128,8 @@ main {
 
 .Text2 {
     width: auto;
-    background-color: #1a1a1a;
-    color: white;
+    background-color: white;
+    color: black;
     text-align: left;
     height: auto;
     padding-left: 10px;
