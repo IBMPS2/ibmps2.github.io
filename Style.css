@@ -106,7 +106,7 @@ main {
 /*Styling for text */
 .Text {
     width: auto;
-    background-color: white;
+    background-color: black;
     color: #717171;
     text-align: center;
     height: auto;
@@ -116,7 +116,7 @@ main {
 
 .Text2 {
     width: auto;
-    background-color: white;
+    background-color: black;
     color: white;
     text-align: left;
     height: auto;
