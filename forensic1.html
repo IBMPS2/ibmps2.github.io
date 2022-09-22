@@ -33,34 +33,30 @@
     <div class="structure"> <!-- Structure of main area (Text area) -->   
         <section>
             <div class="title"> <!-- Styling for main header -->
-                <h1>Home Page</h1> <!--First title of page-->
-            </div><!--Information on products and services in which the company provides-->
-            <div class="Text2"> <!-- Font and text Styling -->
-                <p>placeholder</p>
-                <p>placeholder.</p>
-                <p>placeholder</p>
-                <p>placeholder</p>
-                <p>placeholder</p>
-            </div>
+                <h1>Digital Forensics Research/Work</h1> <!--First title of page-->
+            </div><!--Information on products and services in which the company provides-->           
         </section>
-        <div class="BottomStyle">
-            <div class="Bottom"> <!--Image links located above the footer and below the main text, these images display a 1x1 image with text displaying which page will be loaded on left click-->
-                <a href="https://ibmps2.github.io/test">
-                    <img src="Images/Bottom/tr.jpg" alt="TeaRoom" class="img1"> <!--Image and link to tea room services-->
-                </a>
-            </div>                                   
-        </div>
         <div class="Text2"> <!-- Font and text styling -->
             <div class="title2"> <!-- Styling for header2 -->
                 <h2>placeholder</h2>
             </div>
             <div class="left"> <!-- Forces text to float left with padding 2px -->
-            <p>placeholder</p> <!-- Time in which the company is open -->
-            <p>placeholder</p> <!-- Non acceptance of late arrivals -->
-            <p>placeholder</p> <!-- Location -->
-            <p>placeholder</p> <!--Postcode -->
-            <p>placeholder</p> <!-- Telephone -->
-            </div>
+			<h2>Mobile Privacy Report (coming soon)</h2> <!-- Time in which the company is open -->
+            <p>(coming soon)</p> <!-- Non acceptance of late arrivals -->
+            <p>(coming soon)</p> <!-- Location -->
+			<h2>Investigating how business policy and I.T. infrastructure affect the way forensic practitioners are able to gather evidence - 12/05/2021</h2>
+			<p>This project had the aim of creating a list of recommendations to business’s based on forensic practitioner’s perceived issues in business policy and I.T. infrastructure as well as the mitigations to those issues.This is achieved through interviewing two forensic practitioners.Despite the two forensic practitioners working from different areas (Newcastle and AbuDhabi), there was little difference in the answers they provided.Both forensic practitioners explained that the main issues in business policy and I.T. infrastructure were poorly managed network log retention policies, poorly configured audit policies ona network, wrongly configured user access policies, and poorly designed domain encryption standards.Both forensic practitioners believed that businesses would not be willing to implement changes unless they were made fully aware of the potential risks ofnot changing their policies and configurations.</p>
+			<p>From the results taken from the interviews with forensic practitioners, these results were used to create three scenarios within a virtual test environment. The virtual test environment consisted of a domainincluding a domain server VM running Windows Server 2012 R2, and two VMs running Windows 10 x64.The two VMs running Windows 10 were domain users, VM1 and VM2. VM1 being assigned to the developer’sdomain group, and VM2 being assigned to the marketing domain group.</p>
+			<p>The issues and mitigations were implemented into the test environment, with all three suggested mitigations mostly resolving the issues present in the corresponding issue in business policy and I.T. infrastructure.</p>
+			<p>The final recommendation for businesses is to properly configure the network log retention policy to fit in linewith what network traffic they expect to receive, what storage they can allocate, and what is their average incident response time.It is also recommended to setup an audit policy based on domain users and to not use the default configuration which only covers the local machine, this audit policy should cover all actions of domain users within the file system.The audit policy should also include a system restore point so the audited logs can be used to identify a file that has been deleted, which can thensubsequently be restored.Encryptions should also be handled server side through the domain server providing a certificate to encrypt a file to a domain user, as opposed to the default configuration which has the local machine handle itsown encryption, resulting in the potential for the encryption key to be lost if a user leaves the domain.A backup of the encryption keys/certificates should also be kept on a remote network drive ifthe original encryption keys/certificates becomeinaccessible.</p>
+			<p>Download this report <a href="https://ibmps2.github.io/documents/WPIalternative.docx" download="WPIalternative.docx">here!</a></p>
+            <h2>Windows Phone - WPI as an alternative extraction method - 02/05/2021</h2> <!--Postcode -->
+            <p>This report discusses Cellebrite UFED and Windows Phone Internals which can be used for forensic analysis of devices running Windows phone OS and compares them using a Nokia Lumia 930 and 630. It discusses the lack of support from a forensic perspective for all Windows phone OS’s and the security features and OS architecture which make it difficult for software to acquire data off a device without using JTAG methods. While Windows Phone Internals was very hardware dependant on its success rate in placing a device into mass storage mode and requiring a lot of preparation of the file permissions, Cellebrite UFED was unable to access any data outside of the public directory and thus was only able to extract user media files. The recommendation for forensic analysis of devices running Windows phone OS is to extract using JTAG, due to the unreliability of Windows Phone Internals caused by hardware compatibility issues, and Cellebrite’s very small list of supported devices with Physical extraction.</p> <!-- Telephone -->
+            <p>Download this report <a href="https://ibmps2.github.io/documents/WPIalternative.docx" download="WPIalternative.docx">here!</a></p>
+			<h2>Critical analysis and evaluation of the capture, analysis, and forensic value of physical memory - 30/04/2021</h2>
+			<p>This report discusses the acquisition and examination of physical memory on a Windows 10 based machine (ThinkPad X61s), which has had actions performed on it to simulate data that may be present on a device used in a bank robbery, to identify the forensic value of RAM memory dumps. The tools FTK Imager and Magnet RAM Capture are used to create a RAM memory dump on the device, both before and after restart to utilise “fast startup” built in which loads hiberfile.ini into RAM on reboot. The forensic value of the data identified is significant with Magnet Axiom Process (utilising Volatility) and Examine identifying multiple artifacts with forensic value within the uploaded memory dumps including browser history, file data (including a previously deleted file), Google map searches, event viewer logs, User accounts, locally connected devices, and entered excel passwords. Information regarding command line arguments, emails, browser searches in incognito mode and social media URLs were identified on memory dumps before shutdown. The identified artifacts and the potentially significant forensic value of that data displays the significant importance of memory dump analysis when it comes to a forensic investigation. This is especially true for data which would otherwise not be recoverable such as some private browsing data and entered username and password credentials.</P>
+			<p>Download this report <a href="https://ibmps2.github.io/documents/WPIalternative.docx" download="WPIalternative.docx">here!</a></p>
+			</div>
         </div>
     </div>
 </main>
