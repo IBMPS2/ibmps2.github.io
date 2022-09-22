@@ -21,7 +21,7 @@
             <ul class="navigation"> <!--Navigation menu located underneath header, contains 5 links-->
                 <li><a href="https://ibmps2.github.io"><b>Home</b></a></li>
                 <li><a href="https://ibmps2.github.io/forensic1.html"><b>Digital Forensics Research/Work</b></a></li>
-				<li><a href="http://unn-w18008993.newnumyspace.co.uk/admin.php"><b>Other Research/Work</b></a></li>				
+				<li><a href="https://ibmps2.github.io/resarch.html"><b>Other Research/Work</b></a></li>				
                 <li><a href="http://unn-w18008993.newnumyspace.co.uk/admin.php"><b>Photography</b></a></li>
                 <li><a href="https://ibmps2.github.io/test"><b>Youtube/Content</b></a></li>							
             </ul>
@@ -56,6 +56,37 @@
 			<h2>Critical analysis and evaluation of the capture, analysis, and forensic value of physical memory - 30/04/2021</h2>
 			<p>This report discusses the acquisition and examination of physical memory on a Windows 10 based machine (ThinkPad X61s), which has had actions performed on it to simulate data that may be present on a device used in a bank robbery, to identify the forensic value of RAM memory dumps. The tools FTK Imager and Magnet RAM Capture are used to create a RAM memory dump on the device, both before and after restart to utilise “fast startup” built in which loads hiberfile.ini into RAM on reboot. The forensic value of the data identified is significant with Magnet Axiom Process (utilising Volatility) and Examine identifying multiple artifacts with forensic value within the uploaded memory dumps including browser history, file data (including a previously deleted file), Google map searches, event viewer logs, User accounts, locally connected devices, and entered excel passwords. Information regarding command line arguments, emails, browser searches in incognito mode and social media URLs were identified on memory dumps before shutdown. The identified artifacts and the potentially significant forensic value of that data displays the significant importance of memory dump analysis when it comes to a forensic investigation. This is especially true for data which would otherwise not be recoverable such as some private browsing data and entered username and password credentials.</P>
 			<p>Download this report <a href="https://ibmps2.github.io/documents/WPIalternative.docx" download="WPIalternative.docx">here!</a></p>
+			<h2> Critical analysis and review of the methods and approach used by investigation CRN/123456 (Northumbria University) - 06/01/2021</h2>
+			<p>This report identifies and discusses the investigation CRN/123456 and the methods and approach used in conducting the investigation. It identifies the clear correlation between CRN/123456 and the ACPO guidelines [1] as well as the Criminal procedures and Investigations Act 1996 [2]. While key info could be established in the examination, including a link between Sarah Roberts device and the messages received by Jackie Butterfield, issues are identified in the method and approach. This is due to the removal of SIM cards from mobile devices (potentially resulting in the destruction or change in data), the lack of a module card used to create a forensic copy of the SIM card, lack of information regarding how the SIM card was removed, lack of data recovered from 3rd party apps, and issues within the audit trail regarding the lack of disclosure of issues in mobile forensics such as volatile memory and the potential for 3rd party software to alter data. The recommended solutions for this is the inclusion of physical extraction to include 3rd party app data, the details of the SIM card and call log data being taken from the provider itself when possible, and the improvement of the audit trail, including the potential issues caused by 3rd party forensic software in mobile forensic analysis and the issues caused by volatile memory when it comes to data integrity.</p>
+			<h2>M57.BIZ Forensic report (Northumbria Uni)- 04/11/2020</h2>
+			<p>Evidential findings corresponding to be involved in the leak of personal details of company 
+employees at m57.biz including the leak of names, employee status and social security number.
+</p>
+			<p>With the following emails examined and investigated, it is the belief that the sensitive data of 
+employees at m57.biz including their names, position at the company and their social security 
+number were leaked by the Chief Financial Officer Jean Jones on 20/07/2008 01:28:00 through 
+means of an email to tuckgorge@gmail.com which appears as alison@m57.biz in the senders 
+name in order to spoof the email (impersonate Alison Smith, CEO of m57.biz). The file which Jean 
+Jones sent to tuckgorge@gmail.com was m57biz.xls, this is an excel document containing the 
+personal details of those working at the company, including full name, position at the company, 
+salary and social security number. This also includes the annual salary at the company, benefits 
+and monthly burn.</p>
+			<p>It is believed that Jean Jones passing this sensitive data to tuckgorge@gmail.com whom was 
+impersonating Alison Smith was due to Alison Smith requesting such data on 19/07/2008 23:39:57 
+UTC where she requests a spreadsheet including the details found in m57biz.xls for means of 
+showing them to potential investors in order to run background checks. Alison Smith also states at 
+the ending of his email “Please do not mention this to anybody.”
+</p>
+			<p>Jean Jones confirms the details within m57.biz through confirming her Social Security Number and 
+Salary through an email sent by Bob Blackman (Programmer for apps 1). Jean Jones sent this 
+email to Bob Blackman on 21/07/2008 00:46:00 UTC. This is after originally denying any 
+knowledge of Social Security numbers being leaked (This could be down to a lack of knowledge of 
+the email she sent containing m57biz.xls was being sent to a spoofed email address or due to 
+Alison Smith and Tomgorge@gmail.com requesting that emails involving m57biz.xls are not 
+mentioned to anyone else). Bob Blackman states that he found this information through “someone 
+just sent me email saying that my name and SNN had been posted. I dont really know what this is 
+about.”
+</p>
 			</div>
         </div>
     </div>

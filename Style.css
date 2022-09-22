@@ -47,6 +47,7 @@ main {
     list-style-type: none;
     text-align: center;
     overflow: hidden;
+	
     
 	
 }
@@ -268,11 +269,14 @@ th { /*Colour layout for the table on the admin page*/
 }
 /*Style for footer*/
 footer {
-    background-color: #c9e1ee;
+    background-color: #010081;
     text-align: center;
     padding: 5px;
     font-family: Verdana;
     font-size: 70%;
+	-webkit-box-shadow: 0 3px 15px 0 #000000;
+	-moz-box-shadow: 0 3px 15px 0 #000000;
+	box-shadow: 0 3px 15px 0 #000000;
 }
 
 
