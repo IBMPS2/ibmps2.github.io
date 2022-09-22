@@ -2,7 +2,7 @@ html, body { /* Used to prevent issues with the background when changing window 
     min-height: 100%;
 }
 body { /* Styling for Body */
-    width: 85%;
+    width: 70%;
     height: auto;
     margin: auto;
     background-image: url("Images/Main/straight.png");
