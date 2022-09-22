@@ -12,7 +12,7 @@ body { /* Styling for Body */
 }
 
 .header { /* Colour for header */
-    background: #c9e1ee;
+    background: black;
 }
 
 /* Styling for Main */
@@ -31,7 +31,8 @@ main {
 /* Styling for navigation */
 .navigation {
     font-family: Arial;
-    background-color: #c9e1ea;
+	color: white;
+    background-color: black;
     margin: 0;
     padding: 0;
     list-style-type: none;
@@ -91,8 +92,8 @@ main {
 /*Styling for Titles*/
 .title {
     width: auto;
-    background-color: white;
-    color: #a78e00;
+    background-color: black;
+    color: white;
     text-align: center;
     height: auto;
     padding: 5px;
@@ -100,7 +101,7 @@ main {
 
 .title2 {
     font-size: 80%;
-    color: #887400;
+    color: white;
 }
 
 /*Styling for text */
